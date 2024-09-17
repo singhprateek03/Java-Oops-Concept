@@ -6,6 +6,14 @@ public class Car {
     float currentFuelInLiter;
     int noOfSeats;
 
+    // Parameterized Constructor declaration
+    Car(String color){      // iss color ko priority mil rahi hai
+        noOfWheels = 4;
+        this.color = color;     // object color ki priority ko badhne ke liye this keyword ka use kiya hai
+        maxSpeed = 150;
+        currentFuelInLiter = 4;
+        noOfSeats = 5;
+    }
     public Car start(){
         if (currentFuelInLiter == 0){
             System.out.println("Car is out of fuel, cannot start");
