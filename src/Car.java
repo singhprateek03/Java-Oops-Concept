@@ -1,10 +1,20 @@
 public class Car {
+    static int noOfCarsSold;
     // Instance Variable
     int noOfWheels;
     String color;
     float maxSpeed;
     float currentFuelInLiter;
     int noOfSeats;
+
+    // Default Constructor declaration
+//    Car(String color){
+//        noOfWheels = 4;
+//        color = "Black";
+//        maxSpeed = 150;
+//        currentFuelInLiter = 4;
+//        noOfSeats = 5;
+//    }
 
     // Parameterized Constructor declaration
     Car(String color){      // iss color ko priority mil rahi hai
@@ -13,6 +23,11 @@ public class Car {
         maxSpeed = 150;
         currentFuelInLiter = 4;
         noOfSeats = 5;
+    }
+
+    // Constructor Chaining
+    Car(){
+        this("Black");  // yeah esa constructor dhundhega jo Car() class main color leta ho user se or uss main black color pass karna chahte ho
     }
     public Car start(){
         if (currentFuelInLiter == 0){
