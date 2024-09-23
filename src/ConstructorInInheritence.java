@@ -46,7 +46,7 @@ public class ConstructorInInheritence {
 
         // **** This will used for without arguments ****
 //        ChildOfDerived myChildOfDerived = new ChildOfDerived();
-        
+
         // **** This will used for with arguments ****
         ChildOfDerived myChildOfDerived = new ChildOfDerived(10,20,30);
     }
