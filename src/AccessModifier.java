@@ -50,7 +50,7 @@ class circle1{
     }
 }
 
-public class AccessModifier {
+class AccessModifierPratice {
     public static void main(String[] args) {
         MyEmployee prateek = new MyEmployee();
 
