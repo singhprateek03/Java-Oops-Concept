@@ -13,7 +13,7 @@ class Base1{
 class Derived1 extends Base1{
    // Constructor declaration
     Derived1(){
-    //  super(0);      // yeah class Base1(int a) ko call karega
+    //  super(0);      // yeah class Base1(int x) ko call karega
         System.out.println("I'm a derived Constructor.");
     }
 
