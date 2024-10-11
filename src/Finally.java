@@ -23,15 +23,16 @@ public class Finally {
         int b = 5;
         while (true) {
             try {
-                System.out.println(a / b);
+                System.out.print("Divide of a and b is: "+(a/b));
             }
             catch (Exception e){
                 System.out.println(e);
                 break;
             }
             finally {
-                System.out.println("value of b = "+b);
+                System.out.println("\nvalue of b = "+b);
             }
+            b--;
         }
     }
 }
