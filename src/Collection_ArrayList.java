@@ -14,12 +14,16 @@ public class Collection_ArrayList {
         l2.add(1);
         l2.add(5);
         l2.add(8);
+        l2.add(6);
+        l2.add(7);
+        l2.add(2);
+        l2.add(3);
 
         /* ArrayList methods */
-//        l1.addAll(0, l2);  // index value dene se l2 ke elements phele add honge than l1 ke elements add honge
-        l1.addAll(l2);  // addAll() method l1 and l2 ke saare elements ko add kar dega
+        l1.addAll(0, l2);  // index value dene se l2 ke elements phele add honge than l1 ke elements add honge
+//        l1.addAll(l2);  // addAll() method l1 and l2 ke saare elements ko add kar dega
 //        l1.clear();   // Clear() method saare elements ko clear kar dega
-        l1.set(2,80);   // set() method given index pe value ko set kar deta hai
+//        l1.set(2,80);   // set() method given index pe value ko set kar deta hai
 //        System.out.println(l1.contains(100));    // contains() method check karta hai ki given element ArrayList main hai ki nhi hai
 //        System.out.println("Element present at index: "+l1.indexOf(8));     // indexOf() method batata hai element konse index par hai
 //        System.out.println("Element Last at index: "+l1.lastIndexOf(8));   //  lastIndexOf() method batata hai ki element last time kis index pe aaya tha
