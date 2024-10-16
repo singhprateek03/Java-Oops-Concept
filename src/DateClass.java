@@ -12,6 +12,5 @@ public class DateClass {
         System.out.println("Year: "+Year);
         System.out.println("Hours: "+d.getHours());
         System.out.println("Minutes: "+d.getMinutes());
-
     }
 }
