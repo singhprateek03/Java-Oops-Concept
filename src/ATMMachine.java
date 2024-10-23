@@ -41,7 +41,7 @@ class ATM {
         }
     }
 
-    // checkBalanace() method
+    // checkBalance() method
     public void checkBalance(){
         System.out.println("Balance: "+Balance);
         menu();
@@ -62,7 +62,7 @@ class ATM {
         menu();
     }
 
-    // deposite() method
+    // deposit() method
     public void deposit(){
         System.out.println("Enter amount to deposit: ");
         Scanner sc = new Scanner(System.in);
@@ -71,9 +71,6 @@ class ATM {
         System.out.println("Money deposit successfully");
         menu();
     }
-
-    // EXIT() method
-
 }
 
 public class ATMMachine {
